@@ -13,7 +13,7 @@ Docker環境構築にトライ
 参考  
 [docker-compose による nginx + HTTP/2 + PHP-FPM7 + MySQL 環境の構築方法](https://tech.recruit-mp.co.jp/infrastructure/post-12795/)
 
-少し前にもymlファイルやnginxのconfファイルを直接叩いて勉強していました。今回のこの記事は、詳細に段階を踏んでdockerの実装方法について書かれていたので、私にはぴったりだと思いました。ついでにvimにも慣れたかったため、ymlやcomfigファイルはできる限りvimで記述しています。
+先に述べた、Docker環境構築の挑戦時にymlファイルやnginxのconfファイルを直接叩いて勉強していました。今回のこの記事は、その時と違って詳細かつ段階を踏んでdockerの実装を行なっています。私にはぴったりだと思い挑戦してみました。ついでにvimにも慣れたかったため、ymlやcomfigファイルはできる限りvimで記述しています。
 
 ***
 
