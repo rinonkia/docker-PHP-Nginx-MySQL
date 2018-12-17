@@ -21,6 +21,7 @@ body {
     filter: brightness(.9);
     transition: filter .5s;
     display: inline-block;
+    float: none;
 }
 .thumbnail:hover {
     filter: brightness(1.2);
