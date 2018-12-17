@@ -11,7 +11,7 @@ Docker環境構築にトライ
 作成には、以下のリンクを参考にしました。  
 
 参考  
-[docker-compose で作る nginx + PHP-FPM7 + HTTP/2 に対応したモダンな WordPress 開発環境](https://tech.recruit-mp.co.jp/infrastructure/post-12795/)
+[docker-compose による nginx + HTTP/2 + PHP-FPM7 + MySQL 環境の構築方法](https://tech.recruit-mp.co.jp/infrastructure/post-12795/)
 
 少し前にもymlファイルやnginxのconfファイルを直接叩いて勉強していました。今回のこの記事は、詳細に段階を踏んでdockerの実装方法について書かれていたので、私にはぴったりだと思いました。ついでにvimにも慣れたかったため、ymlやcomfigファイルはできる限りvimで記述しています。
 
