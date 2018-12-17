@@ -15,7 +15,9 @@ Docker環境構築にトライ
 
 少し前にもymlファイルやnginxのconfファイルを直接叩いて勉強していました。今回のこの記事は、詳細に段階を踏んでdockerの実装方法について書かれていたので、私にはぴったりだと思いました。ついでにvimにも慣れたかったため、ymlやcomfigファイルはできる限りvimで記述しています。
 
-###Version
+***
+
+### Version
 
 さくらインターネットと同環境を用意
 
@@ -23,3 +25,24 @@ Docker環境構築にトライ
  - `php:7.1.9-fpm-alpine`
  - `mysql:5.7.19`
 
+### Structure
+
+```
+gataponMacBook-pro:static-hp-docker gatapon$ tree
+.
+├── app
+│   └── Dockerfile
+├── data
+│   └── html
+│       ├── img.jpg
+│       ├── index.php
+│       ├── main.css
+│       └── main.js
+├── db
+│   └── initial.sql
+├── docker-compose.yml
+├── readme.md
+└── web
+    ├── Dockerfile
+    └── default.conf
+```
