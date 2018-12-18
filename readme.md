@@ -45,3 +45,10 @@ gataponMacBook-pro:static-hp-docker gatapon$ tree
     ├── Dockerfile
     └── default.conf
 ```
+### そのほか参考にしたサイト
+
+ - [[PHP]DockerでPHP, MySQL(MariaDB), nginxを使ったローカル開発環境を構築する](https://php-archive.net/php/docker-php-environment/)
+ - [DockerのMySQLイメージ起動時に渡す環境変数](https://qiita.com/nanakenashi/items/180941699dc7ba9d0922　) "Qiita"
+ - [Dockerの公式MySQLイメージの使い方を徹底的に解説するよ](http://dqn.sakusakutto.jp/2015/10/docker_mysqld_tutorial.html)
+
+ -
